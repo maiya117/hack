@@ -1,0 +1,40 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+#appliances ul
+{
+	list-style :none;
+	z-index:1000;
+}
+#appliances ul li
+{
+	background-color:black;
+	border:1px solid white;
+	width:375px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	float:left;
+	position: relative;
+}
+#appliances ul li a
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+#appliances ul li a:hover
+{
+	background-color:gray;
+}
+#appliances ul ul
+{
+   position:absolute;
+   display:	none;
+}
+#appliances ul li:hover > ul
+{
+	display:block;
+}
